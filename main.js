@@ -12,6 +12,21 @@ $(document).ready(function () {
    }
 )
 
+  $(document).keydown(
+    function() {
+      if (event.keyCode == 39) {
+        SwipeNext();
+      }
+    }
+  )
+  $(document).keydown(
+    function() {
+      if (event.keyCode == 37) {
+        SwipePrev();
+      }
+    }
+  )
+
 function SwipeNext() {
   imageActive = $('img.active');
   circleActive = $('i.active');
