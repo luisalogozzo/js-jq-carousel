@@ -14,7 +14,7 @@
     position: relative;
     margin: auto;
     width: 100%;
-    /* height: 80%; */
+    height: 80%;
 }
 .slider-wrapper .images {
     height: 100%;
@@ -22,8 +22,8 @@
 }
 .slider-wrapper .images img {
     display: none;
-    width: 100%
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
 }
 .slider-wrapper .images img.active {
     display: inline-block;
